@@ -1,14 +1,17 @@
-//
-//  main.c
-//  question 5
-//
-//  Created by sumit thakral on 19/03/22.
-//
-
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(){
+    int a;
+    printf("enter number\n");
+    scanf("%d",&a);
+    if (a==0) {
+        printf("num is  even\n");
+    }
+   else if (a%2==0) {
+        printf("number is even\n");}
+    
+        else if(a%2!=0)
+    printf("num is odd\n");
     return 0;
-}
+        
+    }
+
